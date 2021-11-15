@@ -21,5 +21,22 @@
         android:onClick="simpleCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/browser"
+        android:text="Браузер"
+        android:onClick="browserNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/complexNotification"
+        android:text="Сложное уведомление"
+        android:onClick="complexNotification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <CalendarView
+        android:id="@+id/calendarView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </LinearLayout>

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AS_C4_SP_Notifications_Task1">
         <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
